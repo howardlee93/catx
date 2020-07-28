@@ -1,0 +1,22 @@
+{
+    "name": "cat pix ",
+    "version": "1.0",
+    "description": "new tabs will get a pic of cute kitty",
+    "author": "Howard Lee",
+    // "content-script":{
+    // },
+
+    "background":{
+        "script":[]
+    },
+    "browser_action": {   "default_icon": "assets/icons/grumpy.jpg",   "default_title": "Have a good day"},
+  
+    "chrome_url_overrides" : {  "newtab": "new.html"},
+
+    "permissions": ["activeTab"],
+
+    "manifest_version": 2
+
+}
+
+
