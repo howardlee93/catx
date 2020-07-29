@@ -12,9 +12,8 @@
     <img src="assets/images/grumpy.jpg" height="90%" width="90%" alt="grumpy" id="cat-image"></img>
 
     <script type="text/javascript">
-        let imgArr = ['assets/images/grumpy.jpg', 'assets/images/smudge.jpg',"assets/images/merp.jpg",'assets/images/omh.jpg','assets/images/laze.jpg' ]
-
-        console.log(imgArr);
+        let imgArr = ['assets/images/grumpy.jpg', 'assets/images/smudge.jpg',
+        "assets/images/merp.jpg",'assets/images/omh.jpg','assets/images/laze.jpg' ]
         function randCats(){
             let randNum = Math.floor(Math.random() *imgArr.length);
             document.getElementById("cat-image").src = imgArr[randNum];
@@ -22,7 +21,7 @@
         }
 
        randCats();
-       
+
 
     </script>
 
